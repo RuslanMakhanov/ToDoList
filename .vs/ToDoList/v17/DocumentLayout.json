@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2F547FC-E8ED-4586-9147-DA5739F57FBF}|PlayGround(BattleField)\\PlayGround(BattleField).csproj|c:\\users\\ruslan\\desktop\\c#\\udemyultimatemasterclass\\todolist\\playground(battlefield)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2F547FC-E8ED-4586-9147-DA5739F57FBF}|PlayGround(BattleField)\\PlayGround(BattleField).csproj|solutionrelative:playground(battlefield)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C25C2380-99B0-4BA2-88D6-1FD95D1BEB10}|ToDoList\\ToDoList.csproj|c:\\users\\ruslan\\desktop\\c#\\udemyultimatemasterclass\\todolist\\todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C25C2380-99B0-4BA2-88D6-1FD95D1BEB10}|ToDoList\\ToDoList.csproj|solutionrelative:todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2F547FC-E8ED-4586-9147-DA5739F57FBF}|PlayGround(BattleField)\\PlayGround.csproj|c:\\users\\ruslan\\desktop\\c#\\udemyultimatemasterclass\\todolist\\playground(battlefield)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2F547FC-E8ED-4586-9147-DA5739F57FBF}|PlayGround(BattleField)\\PlayGround.csproj|solutionrelative:playground(battlefield)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8C1BC375-7C7C-4A20-8B14-8A54FC6B8717}|Calculator\\Calculator.csproj|c:\\users\\ruslan\\desktop\\c#\\udemyultimatemasterclass\\todolist\\calculator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,19 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\PlayGround(BattleField)\\Program.cs",
               "RelativeDocumentMoniker": "PlayGround(BattleField)\\Program.cs",
               "ToolTip": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\PlayGround(BattleField)\\Program.cs",
               "RelativeToolTip": "PlayGround(BattleField)\\Program.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAGgAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T09:52:20.469Z",
+              "WhenOpened": "2024-10-18T11:04:46.893Z",
               "EditorCaption": ""
             },
             {
@@ -52,13 +52,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\ToDoList\\Program.cs",
               "RelativeDocumentMoniker": "ToDoList\\Program.cs",
               "ToolTip": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\ToDoList\\Program.cs",
               "RelativeToolTip": "ToDoList\\Program.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowFoAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-16T02:40:09.156Z",
               "EditorCaption": ""

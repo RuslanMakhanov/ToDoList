@@ -1,36 +1,106 @@
-﻿Console.WriteLine("What Do You Want?");
-Console.WriteLine("[S]ee all TODOS");
-Console.WriteLine("[A]dd a TODO");
-Console.WriteLine("[R]emove a TODO");
-Console.WriteLine("[E]xit");
+﻿List <string> TasksToDo = new List<string>();
+bool isprogrammrunning = true;
+Console.WriteLine("Hello!");
 
-string userInput = Console.ReadLine();
-switch (userInput)
+do
 {
-    case "s":
-    case "S":
-        PrintSelectedOption("See all TODOS");
-        break;
-    case "a":
-    case "A":
-        PrintSelectedOption("Add a TODO");
-        break;
-    case "r":
-    case "R":
-        PrintSelectedOption("Remove a TODO");
-        break;
-    case "e":
-    case "E":
-        PrintSelectedOption("Exit");
-        break;
-    default:
-        PrintSelectedOption("Is not valid");
-        break;
-}
+    Console.WriteLine("What Do You Want to do?");
+    Console.WriteLine("[S]ee all TODOS");
+    Console.WriteLine("[A]dd a TODO");
+    Console.WriteLine("[R]emove a TODO");
+    Console.WriteLine("[E]xit\n");
 
+    string userInput = Console.ReadLine();
+    switch (userInput)
+    {
+        case "s":
+        case "S":
+            PrintSelectedOption("\nSee all TODOS");
+            ShowAllTasksToDo(TasksToDo);
+            break;
+        case "a":
+        case "A":
+            PrintSelectedOption("\nAdd a TODO");
+            AddATODO();
+            break;
+        case "r":
+        case "R":
+            PrintSelectedOption("\nRemove a TODO");
+            RemoveATODO();
+            break;
+        case "e":
+        case "E":
+            PrintSelectedOption("\nExit\n");
+            isprogrammrunning = false;
+            break;
+        default:
+            PrintSelectedOption("\nIs not valid\n");
+            break;
+    }
+} while (isprogrammrunning);
+
+Console.WriteLine("\nThanks for Using, Goodbye!\nMade by: Ruslan Makhanov");
 Console.ReadKey();
 
 void PrintSelectedOption(string selectedOption)
 {
-    Console.WriteLine("Selected Option: " + selectedOption);
+    Console.WriteLine("\nSelected Option: " + selectedOption);
+}
+
+int ShowAllTasksToDo(List <string> tasks)
+{
+    Console.WriteLine("-----------------------");
+    int taskcount = 0;
+    if (tasks.Count == 0)
+    {
+        Console.WriteLine("No TODOs have been added yet.\n");
+    }
+    foreach (string task in tasks)
+    {
+        Console.WriteLine("Task " + ++taskcount+ ": " + task);
+    }
+    return taskcount;
+}
+
+void AddATODO()
+{
+    bool DescriptionIsOK = false;
+    do { 
+        Console.WriteLine("Enter a TODO Description: ");
+        string ToDoDescription = Console.ReadLine();
+        if (TasksToDo.Contains(ToDoDescription))
+        {
+            Console.WriteLine("The description must be unique!\n");
+        }
+        else if (ToDoDescription.Length > 0)
+        {
+            Console.WriteLine("Task has been added");
+            TasksToDo.Add(ToDoDescription);
+            DescriptionIsOK = true;
+        }
+        else 
+        {
+            Console.WriteLine("The description cannot be empty.\n");
+        }
+    }while (!DescriptionIsOK);
+
+}
+void RemoveATODO(){
+    bool isParsingSuccessful;
+    int AmountOfTasks = ShowAllTasksToDo(TasksToDo);
+    // Add or edit Code Which will skip the next part if user press remove button when there are no tasks
+    do { 
+        ShowAllTasksToDo(TasksToDo);
+        Console.WriteLine("Which Task Would You like to Remove? \n");
+        string userinput = Console.ReadLine();
+        isParsingSuccessful = int.TryParse(userinput, out int number);
+        if (userinput == null)
+        {
+            Console.WriteLine("Selected index cannot be empty.");
+        }
+        else if (AmountOfTasks < number)
+        {
+            Console.WriteLine("The given index is not valid.");
+        }
+    }while (!isParsingSuccessful);
 }

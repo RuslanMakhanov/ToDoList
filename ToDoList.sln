@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList", "ToDoList\ToDoLi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{8C1BC375-7C7C-4A20-8B14-8A54FC6B8717}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayGround(BattleField)", "PlayGround(BattleField)\PlayGround(BattleField).csproj", "{B2F547FC-E8ED-4586-9147-DA5739F57FBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayGround", "PlayGround(BattleField)\PlayGround.csproj", "{B2F547FC-E8ED-4586-9147-DA5739F57FBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

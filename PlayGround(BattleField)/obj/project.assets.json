@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\PlayGround(BattleField)\\PlayGround(BattleField).csproj",
-      "projectName": "PlayGround(BattleField)",
-      "projectPath": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\PlayGround(BattleField)\\PlayGround(BattleField).csproj",
+      "projectUniqueName": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\PlayGround(BattleField)\\PlayGround.csproj",
+      "projectName": "PlayGround",
+      "projectPath": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\PlayGround(BattleField)\\PlayGround.csproj",
       "packagesPath": "C:\\Users\\Ruslan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\PlayGround(BattleField)\\obj\\",
       "projectStyle": "PackageReference",

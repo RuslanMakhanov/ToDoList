@@ -1,4 +1,16 @@
-﻿//var numbers = new[]
+﻿bool isParsingSuccessful;
+do
+{
+    Console.WriteLine("Please enter a number");
+    var userinput = Console.ReadLine();
+    isParsingSuccessful = int.TryParse(userinput, out int number);
+    if (isParsingSuccessful)
+    {
+        Console.WriteLine("Parsing worked, number is: " + number);
+    }
+}while (!isParsingSuccessful);
+
+//var numbers = new[]
 //{
 //    -1,2,-3,4,5,6,-7,8,9,-10
 //};
@@ -14,7 +26,7 @@
 //    var result = new List<int>();
 //    foreach (int num in nums)
 //    {
-//        if(num > 0)
+//        if (num > 0)
 //        {
 //            result.Add(num);
 //        }
@@ -25,6 +37,8 @@
 //    }
 //    return result;
 //}
+
+//Console.ReadKey();
 
 //string word;
 //do
