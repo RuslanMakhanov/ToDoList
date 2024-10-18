@@ -5,26 +5,27 @@ Console.WriteLine("[R]emove a TODO");
 Console.WriteLine("[E]xit");
 
 string userInput = Console.ReadLine();
-
-if (userInput == "S")
+switch (userInput)
 {
-    PrintSelectedOption("See all TODOS");
-}
-else if (userInput == "A")
-{
-    PrintSelectedOption("Add a TODO");
-}
-else if (userInput == "R")
-{
-    PrintSelectedOption("Remove a TODO");
-}
-else if (userInput == "E")
-{
-    PrintSelectedOption("Exit");
-}
-else
-{
-    PrintSelectedOption("Is not valid");
+    case "s":
+    case "S":
+        PrintSelectedOption("See all TODOS");
+        break;
+    case "a":
+    case "A":
+        PrintSelectedOption("Add a TODO");
+        break;
+    case "r":
+    case "R":
+        PrintSelectedOption("Remove a TODO");
+        break;
+    case "e":
+    case "E":
+        PrintSelectedOption("Exit");
+        break;
+    default:
+        PrintSelectedOption("Is not valid");
+        break;
 }
 
 Console.ReadKey();
