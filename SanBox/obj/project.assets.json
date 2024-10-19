@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\SanBox\\SanBox.csproj",
-      "projectName": "SanBox",
-      "projectPath": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\SanBox\\SanBox.csproj",
+      "projectUniqueName": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\SanBox\\SandBox.csproj",
+      "projectName": "SandBox",
+      "projectPath": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\SanBox\\SandBox.csproj",
       "packagesPath": "C:\\Users\\Ruslan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\SanBox\\obj\\",
       "projectStyle": "PackageReference",

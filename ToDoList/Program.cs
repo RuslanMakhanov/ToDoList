@@ -87,20 +87,32 @@ void AddATODO()
 }
 void RemoveATODO(){
     bool isParsingSuccessful;
-    int AmountOfTasks = ShowAllTasksToDo(TasksToDo);
-    // Add or edit Code Which will skip the next part if user press remove button when there are no tasks
-    do { 
+    int AmountOfTasks = TasksToDo.Count();
+    if (AmountOfTasks > 0) 
+    {
+        do { 
+            ShowAllTasksToDo(TasksToDo);
+            Console.WriteLine("Which Task Would You like to Remove? \n");
+            string userinput = Console.ReadLine();
+            isParsingSuccessful = int.TryParse(userinput, out int number);
+            if (userinput == null)
+            {
+                Console.WriteLine("Selected index cannot be empty.");
+            }
+            else if (AmountOfTasks < number)
+            {
+                Console.WriteLine("The given index is not valid.");
+                isParsingSuccessful = false;
+            }
+            else
+            {
+                Console.WriteLine("TODO removed: " + TasksToDo[number - 1]);
+                TasksToDo.RemoveAt(number-1);
+            }
+        }while (!isParsingSuccessful);
+    }
+    else
+    {
         ShowAllTasksToDo(TasksToDo);
-        Console.WriteLine("Which Task Would You like to Remove? \n");
-        string userinput = Console.ReadLine();
-        isParsingSuccessful = int.TryParse(userinput, out int number);
-        if (userinput == null)
-        {
-            Console.WriteLine("Selected index cannot be empty.");
-        }
-        else if (AmountOfTasks < number)
-        {
-            Console.WriteLine("The given index is not valid.");
-        }
-    }while (!isParsingSuccessful);
+    }
 }

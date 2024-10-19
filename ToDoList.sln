@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PlayGround", "PlayGround(BattleField)\PlayGround.csproj", "{B2F547FC-E8ED-4586-9147-DA5739F57FBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SanBox", "SanBox\SanBox.csproj", "{2A7542F9-EAF6-4185-BF9E-778D8207A1FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandBox", "SanBox\SandBox.csproj", "{2A7542F9-EAF6-4185-BF9E-778D8207A1FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
