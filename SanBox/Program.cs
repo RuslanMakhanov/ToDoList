@@ -8,7 +8,7 @@ do
     {
         Console.WriteLine("Parsing worked, number is: " + number);
     }
-}while (!isParsingSuccessful);
+} while (!isParsingSuccessful);
 
 //var numbers = new[]
 //{

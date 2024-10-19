@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\PlayGround(BattleField)\\PlayGround(BattleField).csproj": {}
+    "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\SanBox\\SanBox.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\PlayGround(BattleField)\\PlayGround(BattleField).csproj": {
+    "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\SanBox\\SanBox.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\PlayGround(BattleField)\\PlayGround(BattleField).csproj",
-        "projectName": "PlayGround(BattleField)",
-        "projectPath": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\PlayGround(BattleField)\\PlayGround(BattleField).csproj",
+        "projectUniqueName": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\SanBox\\SanBox.csproj",
+        "projectName": "SanBox",
+        "projectPath": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\SanBox\\SanBox.csproj",
         "packagesPath": "C:\\Users\\Ruslan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\PlayGround(BattleField)\\obj\\",
+        "outputPath": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\SanBox\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ruslan\\AppData\\Roaming\\NuGet\\NuGet.Config",
