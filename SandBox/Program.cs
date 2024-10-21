@@ -1,14 +1,14 @@
-﻿bool isParsingSuccessful;
-do
-{
-    Console.WriteLine("Please enter a number");
-    var userinput = Console.ReadLine();
-    isParsingSuccessful = int.TryParse(userinput, out int number);
-    if (isParsingSuccessful)
-    {
-        Console.WriteLine("Parsing worked, number is: " + number);
-    }
-} while (!isParsingSuccessful);
+﻿//bool isParsingSuccessful;
+//do
+//{
+//    Console.WriteLine("Please enter a number");
+//    var userinput = Console.ReadLine();
+//    isParsingSuccessful = int.TryParse(userinput, out int number);
+//    if (isParsingSuccessful)
+//    {
+//        Console.WriteLine("Parsing worked, number is: " + number);
+//    }
+//} while (!isParsingSuccessful);
 
 //var numbers = new[]
 //{
