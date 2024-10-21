@@ -1,0 +1,15 @@
+C:\Users\Ruslan\Desktop\c#\udemyUltimateMasterClass\ToDoList\SandBox\bin\Debug\net8.0\SandBox.exe
+C:\Users\Ruslan\Desktop\c#\udemyUltimateMasterClass\ToDoList\SandBox\bin\Debug\net8.0\SandBox.deps.json
+C:\Users\Ruslan\Desktop\c#\udemyUltimateMasterClass\ToDoList\SandBox\bin\Debug\net8.0\SandBox.runtimeconfig.json
+C:\Users\Ruslan\Desktop\c#\udemyUltimateMasterClass\ToDoList\SandBox\bin\Debug\net8.0\SandBox.dll
+C:\Users\Ruslan\Desktop\c#\udemyUltimateMasterClass\ToDoList\SandBox\bin\Debug\net8.0\SandBox.pdb
+C:\Users\Ruslan\Desktop\c#\udemyUltimateMasterClass\ToDoList\SandBox\obj\Debug\net8.0\SandBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ruslan\Desktop\c#\udemyUltimateMasterClass\ToDoList\SandBox\obj\Debug\net8.0\SandBox.AssemblyInfoInputs.cache
+C:\Users\Ruslan\Desktop\c#\udemyUltimateMasterClass\ToDoList\SandBox\obj\Debug\net8.0\SandBox.AssemblyInfo.cs
+C:\Users\Ruslan\Desktop\c#\udemyUltimateMasterClass\ToDoList\SandBox\obj\Debug\net8.0\SandBox.csproj.CoreCompileInputs.cache
+C:\Users\Ruslan\Desktop\c#\udemyUltimateMasterClass\ToDoList\SandBox\obj\Debug\net8.0\SandBox.sourcelink.json
+C:\Users\Ruslan\Desktop\c#\udemyUltimateMasterClass\ToDoList\SandBox\obj\Debug\net8.0\SandBox.dll
+C:\Users\Ruslan\Desktop\c#\udemyUltimateMasterClass\ToDoList\SandBox\obj\Debug\net8.0\refint\SandBox.dll
+C:\Users\Ruslan\Desktop\c#\udemyUltimateMasterClass\ToDoList\SandBox\obj\Debug\net8.0\SandBox.pdb
+C:\Users\Ruslan\Desktop\c#\udemyUltimateMasterClass\ToDoList\SandBox\obj\Debug\net8.0\SandBox.genruntimeconfig.cache
+C:\Users\Ruslan\Desktop\c#\udemyUltimateMasterClass\ToDoList\SandBox\obj\Debug\net8.0\ref\SandBox.dll

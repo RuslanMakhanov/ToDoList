@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\SanBox\\SandBox.csproj",
+      "projectUniqueName": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\SandBox\\SandBox.csproj",
       "projectName": "SandBox",
-      "projectPath": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\SanBox\\SandBox.csproj",
+      "projectPath": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\SandBox\\SandBox.csproj",
       "packagesPath": "C:\\Users\\Ruslan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\SanBox\\obj\\",
+      "outputPath": "C:\\Users\\Ruslan\\Desktop\\c#\\udemyUltimateMasterClass\\ToDoList\\SandBox\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ruslan\\AppData\\Roaming\\NuGet\\NuGet.Config",

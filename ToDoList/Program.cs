@@ -1,4 +1,10 @@
 ﻿List <string> TasksToDo = new List<string>();
+
+static void ShowNoTodosMessage()
+{
+    Console.WriteLine("No TODOs have been added yet.\n");
+}
+
 bool isprogrammrunning = true;
 Console.WriteLine("Hello!");
 
@@ -47,24 +53,23 @@ void PrintSelectedOption(string selectedOption)
     Console.WriteLine("\nSelected Option: " + selectedOption);
 }
 
-int ShowAllTasksToDo(List <string> tasks)
+void ShowAllTasksToDo(List <string> tasks)
 {
     Console.WriteLine("-----------------------");
     int taskcount = 0;
     if (tasks.Count == 0)
     {
-        Console.WriteLine("No TODOs have been added yet.\n");
+        ShowNoTodosMessage();
     }
     foreach (string task in tasks)
     {
         Console.WriteLine("Task " + ++taskcount+ ": " + task);
     }
-    return taskcount;
 }
 
 void AddATODO()
 {
-    bool DescriptionIsOK = false;
+    bool DescriptionIsValid = false;
     do { 
         Console.WriteLine("Enter a TODO Description: ");
         string ToDoDescription = Console.ReadLine();
@@ -76,13 +81,13 @@ void AddATODO()
         {
             Console.WriteLine("Task has been added");
             TasksToDo.Add(ToDoDescription);
-            DescriptionIsOK = true;
+            DescriptionIsValid = true;
         }
         else 
         {
             Console.WriteLine("The description cannot be empty.\n");
         }
-    }while (!DescriptionIsOK);
+    }while (!DescriptionIsValid);
 
 }
 void RemoveATODO(){
@@ -99,7 +104,7 @@ void RemoveATODO(){
             {
                 Console.WriteLine("Selected index cannot be empty.");
             }
-            else if (AmountOfTasks < number)
+            else if (AmountOfTasks < number || !isParsingSuccessful)
             {
                 Console.WriteLine("The given index is not valid.");
                 isParsingSuccessful = false;
@@ -113,6 +118,6 @@ void RemoveATODO(){
     }
     else
     {
-        ShowAllTasksToDo(TasksToDo);
+        ShowNoTodosMessage();
     }
 }

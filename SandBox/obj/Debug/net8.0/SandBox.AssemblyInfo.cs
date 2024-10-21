@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SandBox")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07fe0f0722ff114910eab0dc2f7fa74781e7ba3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9efb6e0e0fd1f30225fd8845f9e67dabedd586d1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SandBox")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SandBox")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
