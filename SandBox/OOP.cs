@@ -1,26 +1,3 @@
-var medicalAppointment = new MedicalAppointment(
-    "John Smith", new DateTime(2023, 4, 3));
-
-medicalAppointment.OverrideMonthAndDay(5, 1);
-
-medicalAppointment.MoveByMonthAndDay(1, 2);
-
-Console.WriteLine("Methods_Overloading");
-Console.ReadKey();
-
-
-var rectangle = new Rectangle(5,10);
-var calculator = new ShapeMeasurmentsCalculator();
-
-Console.WriteLine("The rectangle width: " + rectangle.Width);
-Console.WriteLine("The rectangle height: " + rectangle.Height);
-Console.WriteLine("Area is: " + rectangle.CalculateArea());
-Console.WriteLine("Circumference is: " + rectangle.CalculateCircumference());
-
-Console.WriteLine("Area is: " + calculator.CalculateRectangleCircumference(rectangle));
-Console.WriteLine("Circumference is: " + calculator.CalculateRectangleArea(rectangle));
-
-
 //rectangle.Width = 7; 
 //rectangle.Height = -5;
 
@@ -37,7 +14,7 @@ Console.WriteLine("Circumference is: " + calculator.CalculateRectangleArea(recta
 //Console.WriteLine("The rectangle3 width: " + rectangle3.Width);
 //Console.WriteLine("The rectangle3 height: " + rectangle3.Height);
 
-Console.ReadKey();
+//Console.ReadKey();
 
 class Rectangle
 {
@@ -49,14 +26,8 @@ class Rectangle
         Width = width;
         Height = height;
     }
-    public int CalculateCircumference()
-    {
-        return 2 * Width + 2 * Height;
-    }
-    public int CalculateArea()
-    {
-        return Width * Height;
-    }
+    public int CalculateCircumference() => 2 * Width + 2 * Height;
+    public int CalculateArea() => Width * Height;
 }
 
 class ShapeMeasurmentsCalculator

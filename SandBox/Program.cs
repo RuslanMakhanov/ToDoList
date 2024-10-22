@@ -1,4 +1,28 @@
-﻿//bool isParsingSuccessful;
+﻿var medicalAppointment = new MedicalAppointment(
+    "John Smith", new DateTime(2023, 4, 3));
+var medicalAppointment1 = new MedicalAppointment("Jogn");
+var medicalAppointment2 = new MedicalAppointment(2);
+
+medicalAppointment.OverrideMonthAndDay(5, 1);
+
+medicalAppointment.MoveByMonthAndDay(1, 2);
+
+Console.WriteLine("Methods_Overloading");
+Console.ReadKey();
+
+
+var rectangle = new Rectangle(5, 10);
+var calculator = new ShapeMeasurmentsCalculator();
+
+Console.WriteLine("The rectangle width: " + rectangle.Width);
+Console.WriteLine("The rectangle height: " + rectangle.Height);
+Console.WriteLine("Area is: " + rectangle.CalculateArea());
+Console.WriteLine("Circumference is: " + rectangle.CalculateCircumference());
+
+Console.WriteLine("Area is: " + calculator.CalculateRectangleCircumference(rectangle));
+Console.WriteLine("Circumference is: " + calculator.CalculateRectangleArea(rectangle));
+
+//bool isParsingSuccessful;
 //do
 //{
 //    Console.WriteLine("Please enter a number");

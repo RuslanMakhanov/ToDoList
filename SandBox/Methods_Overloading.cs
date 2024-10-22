@@ -1,16 +1,42 @@
+using static System.Runtime.InteropServices.JavaScript.JSType;
+class MedicalAppointmentPrinter
+{
+    public void Print(MedicalAppointment medicalAppointment)
+    {
+        Console.WriteLine(
+            "Appointment will take place on " + medicalAppointment.GetDate());
+    }
+}
 class MedicalAppointment
 {
     private string _patientName;
-    public DateTime _date;
+    private DateTime _date;
+
+    public DateTime GetDate() =>  _date;
     public MedicalAppointment(string patientName, DateTime date)
     {
         _patientName = patientName;
         _date = date;
     }
+    //public MedicalAppointment(string patientName) : this(patientName, 7)
+    //{
 
+    //}
+    public MedicalAppointment(string patientName, int daysFromNow = 7)
+    {
+        _patientName = patientName;
+        _date = DateTime.Now.AddDays(daysFromNow);
+    }
+    public MedicalAppointment(int daysFromNow, string patientName = "John")
+    {
+        _patientName = patientName;
+        _date = DateTime.Now.AddDays(daysFromNow);
+    }
     public void Reschedule (DateTime date)
     {
         _date = date;
+        var printer = new MedicalAppointmentPrinter();
+        printer.Print(this);
     } 
 
     public void OverrideMonthAndDay (int month, int day)
