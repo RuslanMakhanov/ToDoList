@@ -23,8 +23,18 @@ class Rectangle
 
     public Rectangle(int width, int height) 
     {
-        Width = width;
-        Height = height;
+        Width = GetLengthOrDefault(width, nameof(Width));
+        Height = GetLengthOrDefault(height, nameof(Height));
+    }
+    private int GetLengthOrDefault(int length, string name)
+    {
+        int defaultValueIfNonPositive = 1;
+        if (length <= 0)
+        {
+            Console.WriteLine($"{name} must be a positive number.");
+            return defaultValueIfNonPositive;
+        }
+        return length;
     }
     public int CalculateCircumference() => 2 * Width + 2 * Height;
     public int CalculateArea() => Width * Height;

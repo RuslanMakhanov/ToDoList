@@ -1,4 +1,10 @@
-﻿var medicalAppointment = new MedicalAppointment(
+﻿var rectangle2 = new Rectangle(2, 3);
+
+Console.WriteLine("The rectangle2 width: " + rectangle2.Width);
+var rectangle3 = new Rectangle(-1,-2);
+
+Console.WriteLine("The rectangle2 width: " + rectangle2.Width);
+var medicalAppointment = new MedicalAppointment(
     "John Smith", new DateTime(2023, 4, 3));
 var medicalAppointment1 = new MedicalAppointment("Jogn");
 var medicalAppointment2 = new MedicalAppointment(2);
