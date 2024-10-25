@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandBox", "SandBox\SandBox.csproj", "{22CEA6DE-F081-4727-8D95-9817A2D08AB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rectangle", "Rectangle\Rectangle.csproj", "{7B1906D1-C146-48AF-A4C1-48DA90332A63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedicalAppointmentSetter", "MedicalAppointmentSetter\MedicalAppointmentSetter.csproj", "{A27B8433-1DA4-4DCB-A8C9-44855A12B2A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{22CEA6DE-F081-4727-8D95-9817A2D08AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22CEA6DE-F081-4727-8D95-9817A2D08AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22CEA6DE-F081-4727-8D95-9817A2D08AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1906D1-C146-48AF-A4C1-48DA90332A63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1906D1-C146-48AF-A4C1-48DA90332A63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1906D1-C146-48AF-A4C1-48DA90332A63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1906D1-C146-48AF-A4C1-48DA90332A63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A27B8433-1DA4-4DCB-A8C9-44855A12B2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27B8433-1DA4-4DCB-A8C9-44855A12B2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27B8433-1DA4-4DCB-A8C9-44855A12B2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27B8433-1DA4-4DCB-A8C9-44855A12B2A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
