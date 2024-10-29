@@ -8,16 +8,44 @@ namespace RectangleClass
 {
     public class Rectangle
     {
-        const int NumberOfSides = 4;
-        readonly int NumberOfSidesReadonly;
-        public int Width = 3;
-        public int Height = 9;
-        public static int GetOne() => 1;
+        private int _width = 3;
+        private int _height = 9;
+        public int Height
+        {
+            get { return _height; }
+            set 
+            {
+                if (_height > 0)
+                {
+                    _height = value;
+                }
+            }
+        }
+        public int Width
+        {
+            get { return _width; }
+            set
+            {
+                if ( Width > 0)
+                {
+                    _width = value;
+                }
+            } 
+        }
+
+        public int GetHeight() => _height;
+        public void SetHeight( int value)
+        {
+            if (value >0)
+            {
+                _height = value; 
+            }
+        }
 
         public Rectangle(int width, int height)
         {
-            Width = GetLengthOrDefault(width, nameof(Width));
-            Height = GetLengthOrDefault(height, nameof(Height));
+            _width = GetLengthOrDefault(width, nameof(_width));
+            _height = GetLengthOrDefault(height, nameof(_height));
         }
         private int GetLengthOrDefault(int length, string name)
         {
@@ -29,19 +57,21 @@ namespace RectangleClass
             }
             return length;
         }
-        public int CalculateCircumference() => 2 * Width + 2 * Height;
-        public int CalculateArea() => Width * Height;
+        public int CalculateCircumference() => 2 * _width + 2 * _height;
+        public int CalculateArea() => _width * _height;
+        public string Description => $"A rectangle with width {Width} " +
+            $"and height {Height}";
     }
 
     public class ShapeMeasurmentsCalculator
     {
         public int CalculateRectangleCircumference(Rectangle rectangle)
         {
-            return 2 * rectangle.Width + 2 * rectangle.Height;
+            return 2 * rectangle.Width + 2 * rectangle.GetHeight();
         }
         public int CalculateRectangleArea(Rectangle rectangle)
         {
-            return rectangle.Width * rectangle.Height;
+            return rectangle.Width * rectangle.GetHeight();
         }
     }
 }

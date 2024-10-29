@@ -23,21 +23,24 @@ internal class Program
         //Console.WriteLine("The rectangle2 width: " + rectangle2.Width);
         //Console.WriteLine("The rectangle2 height: " + rectangle2.Height);
 
-        //var rectangle3 = new Rectangle();
+        //var rectangle3 = new Rectangle(2,3);
 
-        //Console.WriteLine("The rectangle3 width: " + rectangle3.Width);
-        //Console.WriteLine("The rectangle3 height: " + rectangle3.Height);
+        Console.WriteLine("The rectangle3 width: " + rectangle3.Width);
+        Console.WriteLine("The rectangle3 height: " + rectangle3.Height);
 
         //Console.ReadKey();
 
         Console.WriteLine("The rectangle width: " + rectangle.Width);
-        Console.WriteLine("The rectangle height: " + rectangle.Height);
+        Console.WriteLine("The rectangle height: " + rectangle.GetHeight());
         Console.WriteLine("Area is: " + rectangle.CalculateArea());
         Console.WriteLine("Circumference is: " + rectangle.CalculateCircumference());
+        Console.WriteLine(rectangle.Description);
 
         var calculator = new ShapeMeasurmentsCalculator();
         Console.WriteLine("Area is: " + calculator.CalculateRectangleCircumference(rectangle));
         Console.WriteLine("Circumference is: " + calculator.CalculateRectangleArea(rectangle));
 
+
+        Console.ReadLine();
     }
 }
